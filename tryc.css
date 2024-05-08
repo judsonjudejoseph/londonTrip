@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  font-style: sans-serif;
+}
+
+/* Add a gray background color with some padding */
+.container {
+  position: relative;
+  width: 100%;
+  color: white;
+}
+
+.container .img
+{
+  width: 100%;
+}
+.centered {
+  position: absolute;
+  
+  top: 50%;
+  left: 50%;
+  align-items: center;
+  transform: translate(-50%, -50%);
+
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+.lon
+{
+  text-align: center;
+}
+
+p
+{
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 100 px;
+}
+h2,h5
+{
+ font-family: sans-serif; 
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  
+  width: 100%;
+  padding: 60px;
+}
+
+/* Right column */
+.rightcolumn {
+  
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 80px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+
+
+
+.carousel .carousel-item{
+
+  width: 550px;
+  object-fit: cover;
+  -webkit-box-reflect: below 2px linear-gradient(transparent, transparent,rgba(0,0,0,0.3)); 
+
+}
+

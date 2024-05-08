@@ -1,0 +1,301 @@
+  * {
+    box-sizing: border-box;
+    font-style: sans-serif;
+  }
+
+  /* Add a gray background color with some padding */
+
+
+  .centered img {
+    position: absolute;
+    bottom: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+  }
+
+  .centered .u
+  {
+     position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  .lon
+  {
+    text-align: center;
+  }
+  .i
+  {
+    padding: 20px;
+  }
+
+  .er img
+  {
+    width: 100%;
+  }
+  p
+  {
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 100px;
+  }
+  h2,h5,h3
+  {
+   font-family: sans-serif; 
+  }
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    
+    width: 100%;
+    padding: 20px;
+  overflow-x: hidden;
+    
+  }
+  .card {
+     /*background-color: grey;*/
+     
+     margin-bottom:100px;
+     word-wrap: break-word;
+
+     
+  }
+
+  .card1 {
+     /*background-color: grey;*/
+     
+     margin-top: 300px;
+     word-wrap: break-word;
+
+     
+  }
+  .card2 {
+     /*background-color: grey;*/
+     
+     margin-top: 220px;
+     word-wrap: break-word;
+
+     
+  }
+  .card3 {
+     /*background-color: grey;*/
+     
+     margin-top: 50px;
+     word-wrap: break-word;
+
+     
+  }
+
+  .card4 {
+     /*background-color: grey;*/
+     
+     margin-top: 140px;
+     word-wrap: break-word;
+
+     
+  }
+  .cot
+  {
+    /*background-color: blue;*/
+    
+  /*display: flex;*//*to make div and its items in center*/
+  }
+  .HY
+  {
+    /*background-color: yellow;*/
+  }
+
+  .responsive {
+    width: 45%;
+    height: auto;
+  }
+  /* Right column */
+  .rightcolumn {
+    
+  }
+
+  /* Fake image */
+  /*.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    margin-top: 100px;
+  }*/
+
+  /* Add a card effect for articles */
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #btnid
+  {
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: blue;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    opacity: 50%;
+
+
+  }
+  #btnid:active
+  {
+    background: blue;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 10px;
+    text-align: center;
+    background: darkblue;
+    /*margin-top: 20px;*/
+    border-radius: 10px;
+    
+
+    
+    
+     
+  }
+
+  .col {
+  text-align: right;
+  }
+
+
+  .colleft
+  {
+    text-align: left;
+  }
+
+  .coll {
+  text-align: left;
+
+  }
+
+
+
+
+
+.btnclass 
+{
+  align-items: center;
+}
+    
+
+  .bt
+  {
+    /*margin-left: 375px;*/
+    
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    height: 100px;
+  }
+  .carousel
+  {
+    height: 900px;
+    perspective: 250px;
+  }
+  /*.carousel .carousel-item{
+    width: 650px;
+  }
+  */
+  .outFooter
+  {
+    padding: 10px;
+    float: bottom;
+  }
+
+  .hero
+  {
+    width: 100%;
+    /*background-color: red;*/
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 800px;
+
+
+    
+   
+  }
+
+i
+{
+  margin-right: 50px;
+}
+  .hero .carousel
+  {
+    width: 300px;
+    margin: 100px auto 0;
+    overflow: visible;
+    /*background-color: green;*/
+  }
+  .carousel img
+  {
+    -webkit-box-reflect: below 30px linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.3));
+    object-fit: cover;
+
+   /* mask-image: linear-gradient(transparent 50%, white 90%);*/
+  }
+  button
+  {
+    border: none;
+    padding: 20px;
+    margin: 12px;
+    width: 150px;
+    background-color: lightgray;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 5px;
+
+  }
+  button:hover
+  {
+    box-shadow: 6px 6px 6px 0px gray;
+    transition: box-shadow .5s;
+
+  }
+
+  /*.outerCarousel
+  {
+    padding: 50px;
+  }
+  .carousel img
+  {
+    -webkit-box-reflect:below 100px linear-
+    gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.8));
+    width: 100%;
+    object-fit: cover;
+    webkit-box-reflect:below 5px linear-gradient(transparent, transparent,rgba(255,255,255,0.3));
+
+  }*/
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
